@@ -12,7 +12,7 @@ alloy-rpc-types = { version = "0.1.3", features = ["ssz"] }
 alloy-rlp = "0.3"
 
 # reth
-reth-primitives = { git = "https://github.com/paradigmxyz/reth", tag = "v1.0.0", default-features = false, features = ["std", "c-kzg"] }
+reth-primitives = { git = "https://github.com/paradigmxyz/reth", tag = "v1.0.3", default-features = false, features = ["std", "c-kzg"] }
 
 # ethereum
 ethereum-consensus = { git = "https://github.com/ralexstokes/ethereum-consensus", rev = "cf3c404" }
